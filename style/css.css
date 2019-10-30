@@ -1,0 +1,179 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: black;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100px;
+    color: white;
+    background: #f45905;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-child {
+    display: block;
+    padding : 15px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-child:hover {
+    background: #dc4f03;
+    -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.2);
+    box-shadow:         inset 0 0 10px rgba(0,0,0,.2);
+    -webkit-transition: .5s ease; /* Safari prior 6.1 */
+    transition: .5s ease;
+    
+}
+
+.nav-icon {
+    max-height: 30px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.active {
+    border-left: 3px solid white;
+    background: #dc4f03;
+    -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.2);
+    box-shadow:         inset 0 0 10px rgba(0,0,0,.2);
+    -webkit-transition: .2s ease; /* Safari prior 6.1 */
+    transition: .2s ease;
+}
+
+.content {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    
+}
+
+#ikm {
+    background-image: url(../image/ikm_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#dpmptsp {
+    background-image: url(../image/dpmptsp_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sicantik {
+    background-image: url(../image/sicantik_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#oss {
+    background-image: url(../image/oss_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#simpedal {
+    background-image: url(../image/simpedal_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#kswp {
+    background-image: url(../image/kswp_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.jumbotron {
+    width: 680px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.jumbotron-title {
+    font-size: 123pt;
+    font-weight: 1000;
+    margin-left: 0px;
+    margin-bottom: -30px;
+}
+
+.jumbotron-title-child {
+    font-weight: 1000;
+    font-size: 25pt;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 5px;
+}
+
+.jumbotron-desc {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-jumbotron {
+    margin-left: 10px;
+    text-align: center;
+    background: #f45905;
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-right: 30px;
+    padding-bottom: 7px;
+    font-size : 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f45905;
+}
+
+.btn-jumbotron:hover {
+    -webkit-transition: .4s ease; /* Safari prior 6.1 */
+    transition: .4s ease;
+    background-color: rgba(0,0,0,0);
+    color: #f45905;
+    border: 2px solid #f45905;
+}
